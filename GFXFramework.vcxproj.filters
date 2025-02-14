@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\camera_input.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\scene_input.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\simple_scene.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\text_renderer.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\engine.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\frame_buffer.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\gpu_buffers.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\mesh.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\shader.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\texture2D.cpp">
+      <Filter>src\core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\managers\texture_manager.cpp">
+      <Filter>src\core\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\input_controller.cpp">
+      <Filter>src\core\window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_callbacks.cpp">
+      <Filter>src\core\window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_object.cpp">
+      <Filter>src\core\window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\world.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\lab1.cpp">
+      <Filter>src\labs\lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\lab2.cpp">
+      <Filter>src\labs\lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\lab3.cpp">
+      <Filter>src\labs\lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\lab4.cpp">
+      <Filter>src\labs\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\lab5.cpp">
+      <Filter>src\labs\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\lab6.cpp">
+      <Filter>src\labs\lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\lab7.cpp">
+      <Filter>src\labs\lab7</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\lab8.cpp">
+      <Filter>src\labs\lab8</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\gl_utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\text_utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Color.FS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Default.FS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\MVP.Texture.VS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\MVP.VS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Model.Texture.VS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Normals.FS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Screen.FS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Screen.VS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Simple.FS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Text.FS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Text.VS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\VertexColor.FS.glsl">
+      <Filter>assets\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\camera.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\camera_input.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\exports.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\scene_input.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\simple_scene.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\text_renderer.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\transform.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\engine.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\frame_buffer.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\gpu_buffers.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\mesh.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\particle_effect.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\shader.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\ssbo.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\texture2D.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\vertex_bone_data.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\vertex_format.h">
+      <Filter>src\core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\managers\resource_path.h">
+      <Filter>src\core\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\managers\texture_manager.h">
+      <Filter>src\core\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\input_controller.h">
+      <Filter>src\core\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_callbacks.h">
+      <Filter>src\core\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_object.h">
+      <Filter>src\core\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\world.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\lab1.h">
+      <Filter>src\labs\lab1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\shaders\FragmentShader.glsl">
+      <Filter>src\labs\lab1\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\shaders\GeometryShader.glsl">
+      <Filter>src\labs\lab1\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\shaders\VertexShader.glsl">
+      <Filter>src\labs\lab1\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\lab2.h">
+      <Filter>src\labs\lab2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\shaders\FragmentShader.glsl">
+      <Filter>src\labs\lab2\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\shaders\GeometryShader.glsl">
+      <Filter>src\labs\lab2\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\shaders\VertexShader.glsl">
+      <Filter>src\labs\lab2\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\lab3.h">
+      <Filter>src\labs\lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassOne.FS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassOne.VS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassTwo.FS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassTwo.VS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewColorTexture.FS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewColorTexture.VS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewDepthTexture.FS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewDepthTexture.VS.glsl">
+      <Filter>src\labs\lab3\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\lab4.h">
+      <Filter>src\labs\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle.GS.glsl">
+      <Filter>src\labs\lab4\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_fire.VS.glsl">
+      <Filter>src\labs\lab4\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_fireworks.VS.glsl">
+      <Filter>src\labs\lab4\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_multiple_textures.FS.glsl">
+      <Filter>src\labs\lab4\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_rain_snow.VS.glsl">
+      <Filter>src\labs\lab4\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_simple.FS.glsl">
+      <Filter>src\labs\lab4\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\lab5.h">
+      <Filter>src\labs\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Composition.FS.glsl">
+      <Filter>src\labs\lab5\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Composition.VS.glsl">
+      <Filter>src\labs\lab5\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\LightPass.FS.glsl">
+      <Filter>src\labs\lab5\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\LightPass.VS.glsl">
+      <Filter>src\labs\lab5\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Render2Texture.FS.glsl">
+      <Filter>src\labs\lab5\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Render2Texture.VS.glsl">
+      <Filter>src\labs\lab5\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\lab6.h">
+      <Filter>src\labs\lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\CubeMap.FS.glsl">
+      <Filter>src\labs\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\CubeMap.VS.glsl">
+      <Filter>src\labs\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Framebuffer.FS.glsl">
+      <Filter>src\labs\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Framebuffer.GS.glsl">
+      <Filter>src\labs\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Framebuffer.VS.glsl">
+      <Filter>src\labs\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Normal.FS.glsl">
+      <Filter>src\labs\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Normal.VS.glsl">
+      <Filter>src\labs\lab6\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\lab7.h">
+      <Filter>src\labs\lab7</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\shaders\FragmentShader.glsl">
+      <Filter>src\labs\lab7\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\shaders\VertexShader.glsl">
+      <Filter>src\labs\lab7\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\lab8.h">
+      <Filter>src\labs\lab8</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\shaders\FragmentShader.glsl">
+      <Filter>src\labs\lab8\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\shaders\VertexShader.glsl">
+      <Filter>src\labs\lab8\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab_list.h">
+      <Filter>src\labs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\gl_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\glm_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\math_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\memory_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\text_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\window_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Asus\Desktop\pgapi-labs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{202A7DB5-EB16-3437-8AA3-A050963E5D14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\shaders">
+      <UniqueIdentifier>{25A325B2-2C59-3C73-BF65-CF50598E95A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4D913B85-4673-3BA7-A7D2-E8F5BDF5B0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\components">
+      <UniqueIdentifier>{ED31FCC2-447F-3C10-BBAD-F49707117A24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{FAC6456F-676F-3902-BC25-7FAB4D48F6C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\gpu">
+      <UniqueIdentifier>{95AFA40C-3C2F-390A-912E-4538927CC4F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\managers">
+      <UniqueIdentifier>{6BE0F688-9BAC-3491-8294-6739E6A236B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\window">
+      <UniqueIdentifier>{9FB7F534-CE49-3669-A60D-D631F357F032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs">
+      <UniqueIdentifier>{615A215E-95C9-362C-9E90-736169499B0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab1">
+      <UniqueIdentifier>{5CC3209D-474D-3E8B-8CEE-E06244DFE3BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab1\shaders">
+      <UniqueIdentifier>{A4A2B0DF-3BED-38D6-A307-9DDB585408B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab2">
+      <UniqueIdentifier>{7B30DB12-C9DA-3E55-8CE6-EC5F8D890779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab2\shaders">
+      <UniqueIdentifier>{9D7996B0-282E-3C98-BCB4-5B2602DDD0FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab3">
+      <UniqueIdentifier>{47D4D01E-925A-34DA-A10A-DEF748571194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab3\shaders">
+      <UniqueIdentifier>{D3B5EC86-D512-3373-A094-069E8AA2B96D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab4">
+      <UniqueIdentifier>{A5A125FD-F16F-3853-AA84-6DB0D90A1B3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab4\shaders">
+      <UniqueIdentifier>{3BB0AA35-CDAF-3163-848E-13C97B51BC6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab5">
+      <UniqueIdentifier>{960A39A2-03E7-3C01-9F8C-4CF965E84AF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab5\shaders">
+      <UniqueIdentifier>{A0D964A6-F7D7-333E-9D27-338466D7249F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab6">
+      <UniqueIdentifier>{4B717A27-4F0D-39A1-AEAF-0379CF366C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab6\shaders">
+      <UniqueIdentifier>{8890994F-19C4-3B15-B53B-624FC567B19C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab7">
+      <UniqueIdentifier>{500AEA71-DDBD-314A-A118-3283D8DF8470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab7\shaders">
+      <UniqueIdentifier>{C71BA80A-C210-3723-87CD-B52940E037CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab8">
+      <UniqueIdentifier>{30CA5DE9-BC76-369C-B408-D7D0B23B040D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\labs\lab8\shaders">
+      <UniqueIdentifier>{C90CA150-4CD7-37B8-9348-ACEED7158CFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{F1CADE3D-2A50-37ED-B2E2-253A8FEEC5B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

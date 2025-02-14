@@ -1,0 +1,3 @@
+C:/Users/Asus/Desktop/pgapi-labs/CMakeFiles/GFXFramework.dir
+C:/Users/Asus/Desktop/pgapi-labs/CMakeFiles/ALL_BUILD.dir
+C:/Users/Asus/Desktop/pgapi-labs/CMakeFiles/ZERO_CHECK.dir

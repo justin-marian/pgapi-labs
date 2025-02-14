@@ -1,0 +1,3 @@
+C:/Users/Legion/OneDrive - Universitatea Politehnica Bucuresti/Desktop/gfx-graphics/out/build/x64-Debug/CMakeFiles/GFXFramework.dir
+C:/Users/Legion/OneDrive - Universitatea Politehnica Bucuresti/Desktop/gfx-graphics/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Legion/OneDrive - Universitatea Politehnica Bucuresti/Desktop/gfx-graphics/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

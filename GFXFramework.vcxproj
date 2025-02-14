@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D07B559-F976-32DA-A74C-53D3EDDEE340}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GFXFramework</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Asus\Desktop\pgapi-labs\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GFXFramework.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Asus/Desktop/pgapi-labs</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Asus\Desktop\pgapi-labs\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GFXFramework.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Asus/Desktop/pgapi-labs</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Asus\Desktop\pgapi-labs\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GFXFramework.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Asus/Desktop/pgapi-labs</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Asus\Desktop\pgapi-labs\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GFXFramework.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Asus/Desktop/pgapi-labs</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/Asus/Desktop/pgapi-labs/bin/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\Debug\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\Debug\src C:\Users\Asus\Desktop\pgapi-labs\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\Debug\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\Debug\assets C:\Users\Asus\Desktop\pgapi-labs\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Asus/Desktop/pgapi-labs/Debug/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Asus/Desktop/pgapi-labs/bin/Debug/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/Asus/Desktop/pgapi-labs/bin/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\Release\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\Release\src C:\Users\Asus\Desktop\pgapi-labs\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\Release\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\Release\assets C:\Users\Asus\Desktop\pgapi-labs\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Asus/Desktop/pgapi-labs/Release/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Asus/Desktop/pgapi-labs/bin/Release/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/Asus/Desktop/pgapi-labs/bin/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\MinSizeRel\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\MinSizeRel\src C:\Users\Asus\Desktop\pgapi-labs\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\MinSizeRel\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\MinSizeRel\assets C:\Users\Asus\Desktop\pgapi-labs\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Asus/Desktop/pgapi-labs/MinSizeRel/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Asus/Desktop/pgapi-labs/bin/MinSizeRel/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Asus\Desktop\pgapi-labs\deps\api;C:\Users\Asus\Desktop\pgapi-labs\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/Asus/Desktop/pgapi-labs/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/Asus/Desktop/pgapi-labs/bin/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\RelWithDebInfo\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\RelWithDebInfo\src C:\Users\Asus\Desktop\pgapi-labs\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\Asus\Desktop\pgapi-labs\bin\RelWithDebInfo\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\Asus\Desktop\pgapi-labs\bin\RelWithDebInfo\assets C:\Users\Asus\Desktop\pgapi-labs\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;deps\prebuilt\GL\x86_64\glew32.lib;deps\prebuilt\GLFW\x86_64\glfw3dll.lib;deps\prebuilt\assimp\x86_64\assimp.lib;deps\prebuilt\spdlog\x86_64\spdlog.lib;deps\prebuilt\freetype\x86_64\freetype.lib;deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Asus/Desktop/pgapi-labs/RelWithDebInfo/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Asus/Desktop/pgapi-labs/bin/RelWithDebInfo/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Asus\Desktop\pgapi-labs\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Asus/Desktop/pgapi-labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/Desktop/pgapi-labs -BC:/Users/Asus/Desktop/pgapi-labs --check-stamp-file C:/Users/Asus/Desktop/pgapi-labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\Users\Asus\Desktop\pgapi-labs\infra\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Asus/Desktop/pgapi-labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/Desktop/pgapi-labs -BC:/Users/Asus/Desktop/pgapi-labs --check-stamp-file C:/Users/Asus/Desktop/pgapi-labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\Users\Asus\Desktop\pgapi-labs\infra\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Asus/Desktop/pgapi-labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/Desktop/pgapi-labs -BC:/Users/Asus/Desktop/pgapi-labs --check-stamp-file C:/Users/Asus/Desktop/pgapi-labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\Users\Asus\Desktop\pgapi-labs\infra\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Asus/Desktop/pgapi-labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Asus/Desktop/pgapi-labs -BC:/Users/Asus/Desktop/pgapi-labs --check-stamp-file C:/Users/Asus/Desktop/pgapi-labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeCXXCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeRCCompiler.cmake;C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\3.31.2\CMakeSystem.cmake;C:\Users\Asus\Desktop\pgapi-labs\infra\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Asus\Desktop\pgapi-labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\camera_input.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\scene_input.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\simple_scene.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\text_renderer.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\engine.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\frame_buffer.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\gpu_buffers.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\mesh.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\shader.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\texture2D.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\managers\texture_manager.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\input_controller.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_callbacks.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_object.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\world.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\lab1.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\lab2.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\lab3.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\lab4.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\lab5.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\lab6.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\lab7.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\lab8.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\main.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\gl_utils.cpp" />
+    <ClCompile Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\text_utils.cpp" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Color.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Default.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\MVP.Texture.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\MVP.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Model.Texture.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Normals.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Screen.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Screen.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Simple.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Text.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\Text.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\assets\shaders\VertexColor.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\camera.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\camera_input.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\exports.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\scene_input.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\simple_scene.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\text_renderer.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\components\transform.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\engine.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\frame_buffer.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\gpu_buffers.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\mesh.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\particle_effect.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\shader.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\ssbo.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\texture2D.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\vertex_bone_data.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\gpu\vertex_format.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\managers\resource_path.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\managers\texture_manager.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\input_controller.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_callbacks.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\window\window_object.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\core\world.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\lab1.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\shaders\FragmentShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\shaders\GeometryShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab1\shaders\VertexShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\lab2.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\shaders\FragmentShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\shaders\GeometryShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab2\shaders\VertexShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\lab3.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassOne.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassOne.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassTwo.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ShadowMappingPassTwo.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewColorTexture.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewColorTexture.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewDepthTexture.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab3\shaders\ViewDepthTexture.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\lab4.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle.GS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_fire.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_fireworks.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_multiple_textures.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_rain_snow.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab4\shaders\Particle_simple.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\lab5.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Composition.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Composition.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\LightPass.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\LightPass.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Render2Texture.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab5\shaders\Render2Texture.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\lab6.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\CubeMap.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\CubeMap.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Framebuffer.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Framebuffer.GS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Framebuffer.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Normal.FS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab6\shaders\Normal.VS.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\lab7.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\shaders\FragmentShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab7\shaders\VertexShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\lab8.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\shaders\FragmentShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab8\shaders\VertexShader.glsl" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\labs\lab_list.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\gl_utils.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\glm_utils.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\math_utils.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\memory_utils.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\text_utils.h" />
+    <ClInclude Include="C:\Users\Asus\Desktop\pgapi-labs\src\utils\window_utils.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Asus\Desktop\pgapi-labs\ZERO_CHECK.vcxproj">
+      <Project>{3EB6C32D-EA72-30D6-9596-F88654AB7C63}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
